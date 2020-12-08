@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Spending</string>
+    <string name="main_add_record">Add Record</string>
+    <string name="monthly_budget">Remaining Budget</string>
+    <string name="monthly_income">Monthly Income</string>
+    <string name="monthly_expense">Monthly Expense</string>
+    <string name="view_graph_analysis">View Graph Analysis</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addNote">Add</string>
+    <string name="add_note">Add Note</string>
+    <string name="add_your_note_here">Add your note here</string>
+    <string name="cancel">cancel</string>
+    <string name="please_add_time_24_hour_time">Please Add Time (24-Hour Time)</string>
+    <string name="set_budget">Set Budget</string>
+    <string name="please_enter_search_info">Enter search info</string>
+    <string name="no_record_found">No Record Found</string>
+    <string name="about">About</string>
+    <string name="setting">Setting</string>
+    <string name="history">History</string>
+    <string name="details">Details</string>
+    <string name="about_app_info">App Info</string>
+    <string name="about_app_version">App Version</string>
+    <string name="about_version_num">1.0</string>
+    <string name="about_this_app">About this App</string>
+    <string name="about_app_intro">Spending Tracker is the easiest and most user friendly Personal Finance App!</string>
+    <string name="about_developer">Developer</string>
+    <string name="about_me">About me</string>
+    <string name="email_address">Email</string>
+    <string name="about_email_ashlee">AshleeZ1526@yahoo.com  Feel free to contact me with any issue!</string>
+    <string name="original_code">Source code</string>
+    <string name="ger_source_code_from_my_github">Ger source code from my GitHub</string>
+    <string name="monthly_history">Monthly History</string>
+    <string name="clear_all_data">Clear All Data</string>
+    <string name="graph">Graph</string>
+    <string name="expense">expense</string>
+    <string name="income">income</string>
+    <string name="no_data_found">No Data Found!</string>
+</resources>

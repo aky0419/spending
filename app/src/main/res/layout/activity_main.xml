@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/grey_f3f3f3">
+
+    <RelativeLayout
+        android:id="@+id/main_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_search_black_24dp"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:onClick="onClick"
+            android:id="@+id/main_iv_search"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/main_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_top_layout"
+        android:padding="10dp"
+        android:divider="@null"
+        android:dividerHeight="6dp"
+        android:scrollbars="none"
+        android:background="@color/grey_f3f3f3"/>
+
+    <ImageButton
+        android:id="@+id/main_btn_more"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_menu_black_24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:onClick="onClick"
+        android:background="@drawable/main_morebtn_bg"/>
+    <Button
+        android:id="@+id/main_btn_record"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@id/main_btn_more"
+        android:layout_alignBottom="@id/main_btn_more"
+        android:background="@drawable/main_recordbtn_bg"
+        android:text="@string/main_add_record"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:onClick="onClick"
+        android:drawableLeft="@drawable/ic_create_white_24dp"
+        android:gravity="center"/>
+
+
+
+
+
+
+
+</RelativeLayout>

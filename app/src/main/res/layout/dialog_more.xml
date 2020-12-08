@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@color/grey_f3f3f3">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/dialog_more_about"
+        style="@style/dialog_more_btn"
+        android:text="@string/about"
+        android:drawableTop="@mipmap/about"/>
+
+    <Button
+        android:id="@+id/dialog_more_setting"
+        style="@style/dialog_more_btn"
+        android:text="@string/setting"
+        android:drawableTop="@mipmap/setting"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:id="@+id/dialog_more_history"
+        style="@style/dialog_more_btn"
+        android:text="@string/history"
+        android:drawableTop="@mipmap/history"/>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/dialog_more_details"
+            style="@style/dialog_more_btn"
+            android:text="@string/details"
+            android:drawableTop="@mipmap/details"
+            android:layout_marginRight="30dp"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dialog_more_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_clear_black_24dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+
+</LinearLayout>
